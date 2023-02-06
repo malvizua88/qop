@@ -1,0 +1,47 @@
+.grid-interior-fotos {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+.contenido-flex {
+    display: flex;
+}
+
+.title-container {
+    flex-grow: 1;
+    background-color: #cadbc8;
+
+}
+
+.accordion-button{
+    background-color: #cadbc8;
+}
+
+.accordion-item{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 19px;
+    border: 2px solid black;
+}
+
+.accordion-button{
+    background-color: #a5caa0 !important;
+    color: black!important;
+    border: none !important;
+    box-shadow: none !important;;
+
+} 
+
+
+@media (max-width: 750px) {
+
+    .grid-interior-fotos {
+        width: 100%;
+        height: auto;
+    }
+
+}
+

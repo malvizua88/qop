@@ -1,0 +1,78 @@
+.title-contacto {
+    text-align: center;
+    margin-left: 100px;
+    font-size: 60px;
+    text-shadow: 2px 2px #BDBCBA;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+
+    & .input-label {
+        display: block;
+        margin-top: 10px;
+        text-shadow: 1px 1px #BDBCBA;
+        font-weight: 600;
+    }
+
+    & .input-text {
+        width: 400px;
+        height: 30px;
+        font-family: "Montserrat", sans-serif;
+        border-radius: 10px;
+        border: none;
+        margin-top: 10px;
+    }
+
+    & .input-area {
+        width: 400px;
+        margin-top: 10px;
+        border-radius: 10px;
+        font-family: "Montserrat", sans-serif;
+        border: none;
+    }
+
+    & .input-button {
+        font-family: "Montserrat", sans-serif;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+}
+
+.maceta-fondo {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/planta.jpg");
+    background-size: cover;
+    background-position: right;
+    box-shadow: inset 1px 6px 11px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+@media (min-width: 750px) {
+
+    .form-container {
+        margin-left: 300px;
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        margin-left: 50px;
+    }
+
+    .title-contacto {
+        text-align: center;
+        margin-left: 350px;
+        font-size: 90px;
+    }
+}

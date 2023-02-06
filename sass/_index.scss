@@ -1,0 +1,80 @@
+ul li {
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 15px;
+}
+
+ul li a:hover {
+    color: #745749;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/cactus.jpg");
+    background-position: right;
+    height: unset;
+    background-size: cover;
+    box-shadow: inset 1px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: unset;
+
+    & h1 {
+        font-family: "Amatic SC", sans-serif;
+        text-align: left;
+        margin-top: 80px;
+        margin-left: 100px;
+        margin-bottom: 30px;
+        font-size: 150px;
+        letter-spacing: 10px;
+        color: black;
+        text-shadow: 3px 3px #BDBCBA;
+    }
+}
+
+nav {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    position: fixed;
+    top: 130px;
+    width: 100%;
+    left: 0;
+    background-color: #6d9f71;
+}
+
+.hero-parrafo {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    line-height: 60px;
+    color: rgb(164, 158, 158);
+    text-shadow: 1px 1px #ffffff;
+    padding-bottom: 50px;
+}
+
+.logo-planta {
+    width: 80px;
+    height: auto;
+}
+
+.logo-container {
+    flex-grow: 2;
+}
+
+@media (min-width: 760px) {
+    .hero-parrafo {
+
+        margin-bottom: 300px;
+    }
+}
